@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Title -->
+        <title>binariter | las_r</title>
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+
+        <!-- Roboto Mono -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,180;1,180&display=swap" rel="stylesheet">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <h1 style="text-align: center;">binariter</h1>
+
+        <!-- Sentences -->
+        <p>binariter is a programming ide made to write code in pure binary glory.</p>
+        <p>it’ll have support for syntax highlighting and themes, similar to vscode.</p>
+        <p>basically, you input your binary code and you get the output.</p>
+        <p>you’ll have the option to write in pure binary or write in a new programming language called biniri.</p>
+
+
+        <!-- Biniri -->
+        <h1 style="text-align: center;">biniri</h2>
+        <p>biniri is a programming language made to write pure binary glory without the hassle.</p>
+        <p>biniri will use a register system for variables. here is an example with 8 registers and 4 bits per register, 32 bits of storage total: </p>
+
+        <table>
+            <tr>
+                <th>register id</th>
+                <th>register value</th>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0000</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0010</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>0101</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>0110</td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td>0100</td>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>110</td>
+                <td>1010</td>
+            </tr>
+            <tr>
+                <td>111</td>
+                <td>1001</td>
+            </tr>
+        </table>
+
+        <p>here's a table explaining the syntax: </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Action</th>
+                    <th>Syntax</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>allocate registers</td>
+                    <td>0 a b</td>
+                    <td>amount of registers<br>bits per register</td>
+                </tr>
+                <tr>
+                    <td>set register value</td>
+                    <td>1 a 0 b</td>
+                    <td>register being written to<br>value being written</td>
+                </tr>
+                <tr>
+                    <td>set register value from other registers</td>
+                    <td>1 a 1 b c d</td>
+                    <td>register being written to<br>first register<br>operator (0, 1, 10, 11)<br>second register</td>
+                </tr>
+                <tr>
+                    <td>set register value from input</td>
+                    <td>1 a 10 b</td>
+                    <td>register being written to<br>whether input is in ascii or not</td>
+                </tr>
+                <tr>
+                    <td>print value</td>
+                    <td>10 a b c</td>
+                    <td>whether you're printing from a register or not<br>whether what you're printing is in ascii (for non-binary output)<br>value or register you're printing from</td>
+                </tr>
+                <tr>
+                    <td>wait</td>
+                    <td>11 a</td>
+                    <td>amount of ms to wait</td>
+                </tr>
+                <tr>
+                    <td>comment</td>
+                    <td>**a</td>
+                    <td>comment text</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><hr><br>
+
+        <p style="text-align: center;">by nayif e and ashhad m | <a href="https://docs.google.com/document/d/1St131tumVL4fYVkbtCvppwVtaPjiITQEpOEgVb6S1uQ/edit?usp=sharing">terms of service</a></p>
+    </body>
+</html>
