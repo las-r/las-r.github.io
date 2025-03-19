@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Page title -->
+        <title>snake</title>
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+
+        <!-- Roboto Mono -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,180;1,180&display=swap" rel="stylesheet">
+
+        <!-- Main stylesheet -->
+        <link rel="stylesheet" href="../style.css">
+        
+        <!-- Snake stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id="body">
+        <!-- Game board-->
+        <canvas id="board" class="gameBoard"></canvas>
+
+        <!-- Restart button and inputs-->
+        <div style="text-align: center;">
+            <button onclick="location.reload();" class="restartButton">restart</button>
+        </div>
+
+        <!-- Points -->
+        <p id="points" style="text-align: center;">points: 0</p>
+
+        <!-- Game over message -->
+        <p id="gameOver" style="text-align: center;"></p>
+
+        <!-- Script -->
+        <script src="script.js"></script>
+    </body>
+</html>
