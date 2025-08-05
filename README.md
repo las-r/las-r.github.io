@@ -1,3 +1,3 @@
-# MOVING SOME PROJECTS TO SEPARATE REPOS, THINGS MAY OR MAY NOT BREAK IDK
+This is the code both my old personal websites, it has some of my old stuff on there.
 
-`las-r.github.io` was my old personal website, it has some of my old stuff on there.
+Some projects might've been moved to individual repos.
