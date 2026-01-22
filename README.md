@@ -1,3 +1,5 @@
-This is the code both my old personal websites, it has some of my old stuff on there.
+This is just my personal website.
 
-Some projects might've been moved to individual repos.
+It's literally just a collection of stuff I've made.
+
+Pretty cool.
