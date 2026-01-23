@@ -1,24 +1,39 @@
-/* Main styles */
-
 body {
-    font-family: Roboto Mono, monospace;
-    font-weight: 180;
-    
-    margin: 3%;
+    max-width: 900px;
+    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1a1a1a;
+    color: #fafafa;
+    font-family: monospace;
+}
 
-    background-color: #000;
-    color: #fff;
+h1, h2 {
+    font-weight: 500;
+    letter-spacing: 12px;
+    margin-top: 3rem;
+}
+
+h3 {
+    font-weight: 300;
+    letter-spacing: 6px;
+    margin-top: 2rem;
+}
+
+.intro {
+    font-style: italic;
+}
+
+.links {
+    font-size: 12px;
+    font-style: italic;
 }
 
 a {
-    color: lightgrey
+    color: #adadff;
+    text-decoration: none;
 }
-
-::-webkit-scrollbar {
-    width: 5px;
-}
-::-webkit-scrollbar-thumb {
-    background: #111;
-    border-radius: 5px;
-    margin-right: 1px;
+a:visited {
+    color: #dfadff;
+    text-decoration: none;
 }
