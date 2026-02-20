@@ -1,6 +1,11 @@
+html, body {
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 body {
     max-width: 900px;
-    margin: 2rem;
     margin-left: auto;
     margin-right: auto;
     background: #1a1a1a;
@@ -20,6 +25,13 @@ h3 {
     margin-top: 2rem;
 }
 
+h4 {
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 3px;
+    margin-top: 2rem;
+}
+
 .intro {
     font-style: italic;
 }
@@ -36,4 +48,28 @@ a {
 a:visited {
     color: #dfadff;
     text-decoration: none;
+}
+
+.footer {
+    margin-top: 4rem;
+    padding: 2rem 1rem;
+
+    background: linear-gradient(to top, #2c2c2c, #242424);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+
+    color: #bbbbbb;
+}
+
+.footer a {
+    color: #c8c8ff;
+    transition: color 0.2s ease;
+}
+
+.footer a:hover {
+    color: #ffffff;
 }
