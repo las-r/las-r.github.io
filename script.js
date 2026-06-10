@@ -26,7 +26,7 @@ async function loadRepos() {
         const div = document.createElement("div");
 
         div.innerHTML = `
-            <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
+            <h3><a href="${repo.homepage ? repo.homepage : repo.html_url}" target="_blank">${repo.name}</a></h3>
             <p>${repo.description || "No description provided."}</p>
             <p class="links">
                 <a href="${repo.html_url}" target="_blank">Source</a>
