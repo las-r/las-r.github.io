@@ -10,7 +10,7 @@ body {
     margin-right: auto;
     background: #1a1a1a;
     color: #fafafa;
-    font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-family: monospace;
 }
 
 h1, h2 {
