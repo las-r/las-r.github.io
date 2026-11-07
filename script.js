@@ -1,3 +1,28 @@
+function ohYeah() {
+    const mainTitle = document.getElementById("main-title");
+    if (!mainTitle) return;
+
+    const date = new Date();
+    const m = date.getMonth();
+    const d = date.getDate();
+    const y = date.getFullYear();
+
+    if (m === 10 && d === 10) {
+        mainTitle.textContent = "🎉 las_r 🎉";
+
+        const age = y - 2011;
+        const l = age % 10;
+        const lt = age % 100;
+        ord = "th"
+        if (lt < 11 || lt > 13) { 
+            ord = ["th", "st", "nd", "rd"][l] || "th";
+        }
+        console.log(`It's my ${age}${ord} birthday!`);
+    } else {
+        console.log(`What are you looking for?`);
+    }
+}
+
 async function loadRepos() {
     const username = "las-r";
     const container = document.getElementById("projects");
@@ -63,4 +88,5 @@ async function loadRepos() {
     }
 }
 
+ohYeah();
 loadRepos();
