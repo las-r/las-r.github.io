@@ -115,11 +115,11 @@ a:visited:hover {
 
 .project {
     padding: 1.25rem 0;
-    border-bottom: 1px solid #333333;
+    border-bottom: 1px dashed #333333;
 }
 
 .project:first-child {
-    border-top: 1px solid #333333;
+    border-top: 1px dashed #333333;
 }
 
 .project p {
@@ -132,24 +132,15 @@ a:visited:hover {
     font-style: italic;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+footer {
     margin-top: 4rem;
-    padding: 1.5rem 1rem;
-    background: linear-gradient(to top, #2c2c2c, #242424);
-    border-top-left-radius: 0.75rem;
-    border-top-right-radius: 0.75rem;
-    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    border-top: 1px solid #333333;
+    color: #6c6c78;
     font-size: 0.75rem;
-    letter-spacing: 1px;
-    color: #bbbbbb;
-}
-
-.footer a {
-    color: #c8c8ff;
+    letter-spacing: 0.06em;
+    text-align: left;
 }
 
 @media (max-width: 480px) {

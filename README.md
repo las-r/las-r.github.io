@@ -1,5 +1,3 @@
 This is my personal website.
 
-It's just a collection of stuff I've made.
-
-Pretty cool.
+Hosted at [las-r.dev](https://las-r.dev).
