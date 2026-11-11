@@ -17,9 +17,9 @@ function ohYeah() {
         if (lt < 11 || lt > 13) { 
             ord = ["th", "st", "nd", "rd"][l] || "th";
         }
-        console.log(`It's my ${age}${ord} birthday!`);
+        console.log(`i am in my ${age}${ord} year of life. do you believe i will have many more?`);
     } else {
-        console.log(`What are you looking for?`);
+        console.log(`what are you looking for?`);
     }
 }
 
